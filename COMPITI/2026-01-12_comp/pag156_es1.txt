@@ -1,0 +1,5 @@
+PAG. 156 ES. 1
+Per determinare il valore minimo in una sequenza di numeri, la variabile d'appoggio (ad esempio, MIN) deve essere inizializzata con un valore molto alto.
+In questo modo, qualsiasi numero che verrà inserito nella sequenza sarà sicuramente inferiore a questo valore iniziale, consentendo alla variabile di memorizzare il numero più piccolo.
+
+In C, la variabile può essere inizializzata così: int MIN = INT_MAX;

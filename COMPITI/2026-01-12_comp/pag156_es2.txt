@@ -1,0 +1,4 @@
+PAG. 156 ES. 2
+L'algoritmo fornito nel diagramma ha 2 errori logici:
+- La variabile MAX non è inizializzata correttamente, dovrebbe essere inizializzata con il primo numero della sequenza, oppure con INT_MIN.
+- Ogni volta che viene letto un nuovo numero bisogna confrontarlo con MAX. Se maggiore di MAX, allora aggiornare MAX.
